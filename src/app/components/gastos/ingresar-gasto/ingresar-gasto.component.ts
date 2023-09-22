@@ -43,7 +43,9 @@ export class IngresarGastoComponent {
       this._presupuestoService.agregarGasto(GASTO);
 
       //resetear from
-      
+      this.formularioIncorrecto=false;
+      this.nombreGasto="";
+      this.cantidad =0;
 
     }
   }
